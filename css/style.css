@@ -1,0 +1,133 @@
+
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth !important;
+}
+body{
+    background-color:#f3f3f3 !important; 
+    font-family: 'Libre Baskerville', serif !important;
+    overflow-x: hidden;
+    
+}
+.fa-bars, .fa-times{
+    font-size: 180% !important;
+}
+#hamburger{
+    height:100%;
+    width:30%;
+}
+#slika{
+    margin-top:20% !important;
+    z-index:45;
+}
+a{
+    text-decoration: none !important;
+    color:black !important;
+    
+}
+li{
+    list-style-type: none;
+}
+.sve{
+    display: flex !important;
+    flex-direction: row;
+    width:auto;
+    align-items: center;
+}
+nav{
+    height:11% !important;
+}
+nav a div img{
+    width:60% !important
+}
+.form-control{
+    height: 8% !important;
+}
+hr{
+    width: 40%;
+    box-shadow:2px 10px 15px -15px #888888;
+}
+.zaregprij {
+    position: fixed;
+    background-color: #f3f3f3;
+    margin:auto;
+    top:5%;
+    box-shadow:10px 10px 15px #888888;
+}
+.hover{
+    text-shadow:1.5px 0px #6f040c;
+}
+.gore{
+background-image: url('../img/pozadina.jpg');
+width: 100%;
+height: auto;
+background-size: cover;
+}
+.dva{
+    flex-wrap: wrap;
+}
+#bg1{
+    font-family:'Bellefair,serif';
+}
+.fa-paw{
+    color:#6f040c;
+}
+.blokovi{
+    height: 10%;
+}
+.jedan{
+    width:100%;
+    height: 45rem;
+    background-size:cover;
+    background-image: url('../img/deveti.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+}
+.tri{
+    width:100%;
+    height: auto;
+    background-image: url('../img/mopspozadina.jpg');
+}
+#cenovnik{
+    width:70%;
+    height:auto;
+    background-color: #888888;
+    box-shadow:10px 8px 15px #888888;
+}
+#cenovnik h5{
+    color:#888888
+}
+.tr{
+   border-bottom-style: solid;
+   border-bottom-color: #888888;
+   border-bottom-width: 2px;
+}
+.border-bottom{
+  border-bottom-color: #888888 !important;
+}
+footer{
+    font-weight: bold;
+    display:flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.neparan img{
+    width:16%
+}
+.cetiri{flex-direction: column;}
+.js-slidein {
+    -webkit-transition: all 800ms ease-in-out !important;
+    transition: all 800ms ease-in-out !important;
+}
+nav a div img{
+    width:90%;
+}
+h3{
+    font-size: 120% !important;
+}
+h5{
+    font-size:90% !important;
+}
